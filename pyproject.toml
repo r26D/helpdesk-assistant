@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "helpdesk-assistant"
+version = "0.1.0"
+description = "https://github.com/r26D/helpdesk-assistant"
+authors = ["Melinda Loubser"]
+
+[tool.poetry.dependencies]
+python = ">=3.6,<3.8"
+spacy = "==2.1.9"
+transformers = "==2.4.1"
+rasa = {extras = ["transformers","spacy"], version = "^1.10.3"}
+rasa-sdk = "^1.10.1"
+pytablewriter = "^0.54.0"
+requests = "^2.23.0"
+"ruamel.yaml" = "^0.16.10"
+
+[tool.poetry.dev-dependencies]
+yamllint = "^1.23.0"
+black = "==19.10b0"
+flake8 = "==3.7.8"
+pytype = "==2019.7.11"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+

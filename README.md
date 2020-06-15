@@ -1,3 +1,9 @@
+This is a fork of the example from RasaHQ
+
+I'm using it to verify that the action server I'm building works
+
+
+
 # Rasa Helpdesk Assistant Example
 
 This is a Rasa chatbot example demonstrating how to build an AI assistant for an IT Helpdesk. It includes an integration with the Service Now API to open incident reports. Below is an example conversation, showing the bot helping a user open a support ticket. You can use this chatbot as a starting point for building customer service assistants or as a template for collecting required pieces of information from a user before making an API call. 
