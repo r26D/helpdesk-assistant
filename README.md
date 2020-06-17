@@ -61,7 +61,7 @@ docker run -p 8000:8000 rasa/duckling
 Then to talk to the bot, run:
 
 ```bash
-rasa shell --debug
+rasa shell --debug --enable-api
 ```
 
 Note that `--debug` mode will produce a lot of output meant to help you understand how the bot is working
