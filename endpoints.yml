@@ -11,9 +11,9 @@
 # https://rasa.com/docs/rasa/core/actions/#custom-actions/
 
 nlg:
- url: "http://localhost:5055/nlg"
+ url: "http://localhost:5055/helpdesk-assitant/nlg"
 action_endpoint:
- url: "http://localhost:5055/webhook"
+ url: "http://localhost:5055/helpdesk-assitant/actions"
 
 # Tracker store which is used to store the conversations.
 # By default the conversations are stored in memory.
